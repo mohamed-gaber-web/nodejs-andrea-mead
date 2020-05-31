@@ -1,0 +1,39 @@
+create task app used node and express ana mongodb
+
+1- how to install mongodb ?
+    -- download os:windows - package:zip
+    -- extract download and rename to mongodb
+    -- move folder [ mongodb ] to users>mohamed
+    -- create folder in the same path [ mongodb-data ]
+    -- in cmd run this command /Users/mohamed/mongodb/bin/mongod.exe --dbpath=/Users/mohamed/mongodb-data or 
+    .\/mongodb/bin/mongod.exe --dbpath=/mongodb-data or /mongodb/bin/mongod.exe --dbpath=/mongodb-data
+    -- download robo 3t connect with mongodb database
+
+2- how to connect node js with mongodb ?
+    -- npm mongodb [ npm i mongodb ]
+    -- create file js and make config with this file
+
+3- find and findOne
+    -- find return more documnts then use with find function toArray(callback) => find({query}).toArray
+    -- findOne return One documnt => findOne({query}, (callback))
+
+4- with find id should use new ObjectID(id)
+
+
+5- mongoosejs
+    -- npm i mongoose
+    -- vlidation
+        -- required: true
+        -- validate
+        -- used validator package
+
+6- API
+    -- relation between [ client ] [ server ] or [ request ] [ response ]
+    -- /tasks http url 
+    -- GET - POST - PATCH - DELETE => http methods 
+
+7- URL STATUS
+    -- httpstatus.com
+
+8- Mongoose query
+    -- in the doc => section guide 
